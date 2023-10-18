@@ -1,3 +1,62 @@
-.debug {
-    border: 3px dashed green;
+
+section {
+    padding: 3rem 0;
+    scroll-margin-top: 5rem;
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: #2B3D4F;
+}
+/* jumbo */
+
+#jumbo,
+#about {
+    background-color: #1ABC9C;
+}
+
+.my_star_lines {
+    width: 5rem;
+    height: 3px;
+    background-color: currentColor;
+    border-radius: 20px;
+    margin: 0 1rem;
+}
+
+/* portfolio */
+
+.my_img {
+    border-radius: 20px;
+}
+
+.message {
+    padding: 1rem 0 5rem 0;
+}
+
+.my_button {
+    background-color: #1ABC9C;
+    border: #1ABC9C;
+}
+
+.my_button:hover {
+    background-color: #107e68;
+}
+
+/* footer */
+#footer {
+    background-color: #3A546D;
+}
+#copyright {
+    background-color: #2C3E50;
+}
+
+.my_icons {
+    width: 3rem;
+
+    padding: 1rem;
+    border: currentColor 1px solid;
+    border-radius: 50%;
+    aspect-ratio: 1;
 }
